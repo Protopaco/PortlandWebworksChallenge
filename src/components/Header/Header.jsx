@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { primaryMain } from "../../consts"
+import { primaryMain, primaryLight } from "../../consts"
 
 import AppBar from '@material-ui/core/AppBar';
 import Button from "@material-ui/core/Button"
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
     },
     menuContainer: {
-        backgroundColor: primaryMain,
+        backgroundColor: primaryLight,
         width: "70px",
         height: "100%",
         display: "flex",
