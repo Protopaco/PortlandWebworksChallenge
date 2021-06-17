@@ -6,7 +6,7 @@ import Body from "../../components/Body/Body"
 
 export default function Main() {
     return (
-        <div style={{ height: "100vh", backgroundColor: "green" }}>
+        <div style={{ height: "100%" }}>
             <Header />
             <Body />
             <Footer />
